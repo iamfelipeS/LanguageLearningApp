@@ -9,6 +9,7 @@ import { QuizComponent } from './components/quiz/quiz.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
