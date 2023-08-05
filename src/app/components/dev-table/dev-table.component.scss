@@ -20,4 +20,22 @@ table {
   .zebra-row {
     background-color: #f2f2f2; 
   }
+
+  .sound-colunm{
+    width: 70px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sound-btn{
+    //height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #001aff;
+    border-radius: solid 5px;
+    cursor:pointer;
+  }
   

@@ -4,7 +4,6 @@
         <tr>
             <th>#</th>
             <th>Word</th>
-
             <th>Sound</th>
 
         </tr>
@@ -13,8 +12,11 @@
         <tr *ngFor="let word of words; let i = index" [ngClass]="{ 'zebra-row': i % 2 === 0 }">
             <td>{{ i + 1 }}</td>
             <td>{{ word }}</td>
-            <td>
-                🔊
+            <td class="sound-colunm">
+                <div class="sound-btn">
+                    🔊
+                    <p>PLAY</p>
+                </div>
                 <!-- <button (click)="playSound(word)">🔊</button> -->
             </td>
         </tr>
