@@ -1,0 +1,23 @@
+/* Adicione espaçamento entre as palavras */
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Espaçamento vertical entre as células */
+  }
+  
+  /* Tabela zebrada */
+  .zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .zebra-table th,
+  .zebra-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .zebra-row {
+    background-color: #f2f2f2; 
+  }
+  

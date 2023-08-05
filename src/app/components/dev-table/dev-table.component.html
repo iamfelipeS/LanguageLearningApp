@@ -1,0 +1,22 @@
+<h1>Development Table</h1>
+<table class="zebra-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Word</th>
+
+            <th>Sound</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let word of words; let i = index" [ngClass]="{ 'zebra-row': i % 2 === 0 }">
+            <td>{{ i + 1 }}</td>
+            <td>{{ word }}</td>
+            <td>
+                🔊
+                <!-- <button (click)="playSound(word)">🔊</button> -->
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -8,6 +8,8 @@ import { HomeComponent } from './components/home/home.component';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { FormsModule } from '@angular/forms';
+import { DevTableComponent } from './components/dev-table/dev-table.component';
 
 
 @NgModule({
@@ -18,10 +20,12 @@ import { FooterComponent } from './components/template/footer/footer.component';
     QuizComponent,
     HeaderComponent,
     FooterComponent,
+    DevTableComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
