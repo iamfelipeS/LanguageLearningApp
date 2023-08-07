@@ -25,7 +25,7 @@ export class HomeComponent {
     },
     {
       position: 3,
-      name: 'Ronald',
+      name: 'Rafael',
       score: 78
     },
     {
